@@ -15,5 +15,5 @@ $ git commit -m "Háttér megváltoztatva" -> commit szöveggel hozzáadva a con
 git checkout main -> visszalépek a mianbe 
 git merge console -> összefésülöm vele a consolt-t (marad a main mert abból indítottam)
 
-git remote add origin git@github.com:BacRaD/git-vizsga-0420.git -> megadom a távoli gyűjteményt 
+$ git remote set-url origin git@github.com:BacRaD/git-vizsga-0420.git -> megadom a távoli gyűjteményt 
 git push -u origin mian -> feltöltöm
